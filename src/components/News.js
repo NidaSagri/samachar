@@ -56,7 +56,7 @@ document.title= `NewsMonkey- ${capitalize(props.category)}`
   
     return (
       <div className="container my-3">
-        <h1 className="text-center" style={{marginTop:'80px'}} >NewsMonkey - Top headlines from {capitalize(props.category)}</h1>
+        <h1 className="text-center" style={{marginTop:'80px'}} >Samachar - Top headlines from {capitalize(props.category)}</h1>
 
         <InfiniteScroll
           dataLength={articles.length}
